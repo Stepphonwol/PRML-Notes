@@ -11,7 +11,7 @@
     - frequentists : maximum likelihood, bootstrap
     - problems of bayesians : prior distribution is often selected on the basis of mathematical convenience rather than reflections of prior beliefs
 - **Mode** : maximum of a distribution, for a Gaussian distribution, the mode coincides with the mean
-- **i.i.d.** : independent and identically distributed(data points that are drawn independently from the same distribution)
+- **i.i.d.** : independent and identically distributed(data points that are drawn independently from the same distribution), **the essence of statistic machine learning**
 - **Likelihood function of Gaussian distribution** : 
 $$ p(x | μ, δ^2) = \prod_{1}^NN(x | μ, δ^2)$$
 - Maximum likelihood approach underestimates the variance of distribution(bias) -> over-fitting
