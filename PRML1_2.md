@@ -11,7 +11,7 @@
     - frequentists : maximum likelihood, bootstrap
     - problems of bayesians : prior distribution is often selected on the basis of mathematical convenience rather than reflections of prior beliefs
 - **Mode** : maximum of a distribution, for a Gaussian distribution, the mode coincides with the mean
-- **i.i.d.** : independent and identically distributed(data points that are drawn independently from the same distribution), **the essence of statistic machine learning**
+- **i.i.d.** : independently and identically distributed(data points that are drawn independently from the same distribution), **the essence of statistic machine learning**
 - **Likelihood function of Gaussian distribution** : 
 $$ p(x | μ, δ^2) = \prod_{1}^NN(x | μ, δ^2)$$
 - Maximum likelihood approach underestimates the variance of distribution(bias) -> over-fitting
@@ -24,7 +24,7 @@ $$ p(x | μ, δ^2) = \prod_{1}^NN(x | μ, δ^2)$$
     - construct a *prior distribution* : p(w | α) *(α : hyperparameter)*
     - the posterior distribution is proportional to the product of likelihood function and the prior distribution:
     $$ p(w | \bold{x}, \bold{t}, α, β) \propto p(\bold{t} | \bold{x}, w, β)p(w | α)$$
-    - maximize the posterior distribution(MAP)
+    - maximize the posterior distribution(**MAP**)
 - **bayesian**: applying only sum and product rules;integrate over all values of w(marginalization)
     - *predictive distribution*:
     $$ p(t |x, \bold {x}, \bold {t}) = \int p(t | x, w)p(w | \bold {x}, \bold {t})dw $$

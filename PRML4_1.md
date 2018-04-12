@@ -1,5 +1,5 @@
 ## 4 Linear Models for Classification
-- **activation function** :
+- **activation function** : identity, binary step, logistics(sigmoid), TanH, arctan
 $$ y(x) = f (w^Tx+w_o).$$
 $y(x)=constant$ : decision surfaces
 (D-1) dimensional decision hyperplanes when the input vector is D dimensional
